@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+      'hero-pattern': "url('./img/background.png' opacity:2rem",
+      }
+
+    },
   },
   plugins: [],
 }
